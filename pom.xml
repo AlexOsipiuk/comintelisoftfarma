@@ -10,6 +10,11 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>entity</module>
+        <module>farma-dao</module>
+        <module>farma-daoimpl</module>
+        <module>farma-entitys</module>
+        <module>farma-runner</module>
+        <module>farma-service</module>
     </modules>
 
 

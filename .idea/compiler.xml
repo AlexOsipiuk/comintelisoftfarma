@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="farma-dao" />
+        <module name="farma-daoimpl" />
+        <module name="farma-entitys" />
+        <module name="farma-runner" />
+        <module name="farma-service" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="comintelisoftfarma" target="1.5" />
       <module name="entity" target="1.5" />
+      <module name="farma-dao" target="1.5" />
+      <module name="farma-daoimpl" target="1.5" />
+      <module name="farma-entitys" target="1.5" />
+      <module name="farma-runner" target="1.5" />
+      <module name="farma-service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
