@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/farma-entitys/farma-entitys.iml" filepath="$PROJECT_DIR$/farma-entitys/farma-entitys.iml" />
       <module fileurl="file://$PROJECT_DIR$/farma-runner/farma-runner.iml" filepath="$PROJECT_DIR$/farma-runner/farma-runner.iml" />
       <module fileurl="file://$PROJECT_DIR$/farma-service/farma-service.iml" filepath="$PROJECT_DIR$/farma-service/farma-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>
 </project>
