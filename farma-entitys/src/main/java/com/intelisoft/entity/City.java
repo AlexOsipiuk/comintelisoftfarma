@@ -8,10 +8,10 @@ import java.util.List;
 public class City {
     @Id
     @Column(name = "id_city")
-    private Integer idCity;
+    private Integer id;
 
     @Column(name = "name_city")
-    private String nameCity;
+    private String name;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "city")
     private List<Street> streets;
@@ -20,24 +20,24 @@ public class City {
     }
 
     public City(Integer idCity, String nameCity) {
-        this.idCity = idCity;
-        this.nameCity = nameCity;
+        this.id = idCity;
+        this.name = nameCity;
     }
 
-    public Integer getIdCity() {
-        return idCity;
+    public Integer getId() {
+        return id;
     }
 
-    public void setIdCity(Integer idCity) {
-        this.idCity = idCity;
+    public void setId(Integer idCity) {
+        this.id = idCity;
     }
 
-    public String getNameCity() {
-        return nameCity;
+    public String getName() {
+        return name;
     }
 
-    public void setNameCity(String nameCity) {
-        this.nameCity = nameCity;
+    public void setName(String nameCity) {
+        this.name = nameCity;
     }
 
     public List<Street> getStreets() {
@@ -51,8 +51,8 @@ public class City {
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("City {");
-        sb.append("index - ").append(idCity);
-        sb.append(", City - ").append(nameCity);
+        sb.append("index - ").append(id);
+        sb.append(", City - ").append(name);
         sb.append('}');
         return sb.toString();
     }
