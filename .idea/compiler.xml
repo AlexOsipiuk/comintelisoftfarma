@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="farma-api" />
         <module name="farma-dao" />
         <module name="farma-daoimpl" />
         <module name="farma-entitys" />
@@ -16,11 +17,13 @@
     <bytecodeTargetLevel>
       <module name="comintelisoftfarma" target="1.5" />
       <module name="entity" target="1.5" />
+      <module name="farma-api" target="1.5" />
       <module name="farma-dao" target="1.5" />
       <module name="farma-daoimpl" target="1.5" />
       <module name="farma-entitys" target="1.5" />
       <module name="farma-runner" target="1.5" />
       <module name="farma-service" target="1.5" />
+      <module name="farmaapi" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
