@@ -1,7 +1,9 @@
 package com.intelisoft.farma.api.services;
 
-/**
- * Created by Alex on 20.08.2017.
- */
+import com.intelisoft.entity.ItemOrders;
+
 public interface IItemOrderServices {
+    public void add(ItemOrders itemOrders);
+
+    public void delete(ItemOrders itemOrders);
 }

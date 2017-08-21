@@ -1,7 +1,9 @@
 package com.intelisoft.farma.api.services;
 
-/**
- * Created by Alex on 20.08.2017.
- */
+import com.intelisoft.entity.Pharmacies;
+
 public interface IPharmaciesServices {
+    public void add(Pharmacies pharmacies);
+
+    public void delete(Pharmacies pharmacies);
 }

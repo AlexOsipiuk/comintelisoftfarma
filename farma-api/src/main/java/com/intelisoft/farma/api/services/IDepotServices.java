@@ -1,7 +1,9 @@
 package com.intelisoft.farma.api.services;
 
-/**
- * Created by Alex on 20.08.2017.
- */
+import com.intelisoft.entity.Depot;
+
 public interface IDepotServices {
+    public void add(Depot depot);
+
+    public void delete(Depot depot);
 }
