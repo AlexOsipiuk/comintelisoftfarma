@@ -11,6 +11,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="farma-dao" />
+    <orderEntry type="module" module-name="farma-api" />
+    <orderEntry type="module" module-name="farma-entitys" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.38" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:4.3.0.Final" level="project" />

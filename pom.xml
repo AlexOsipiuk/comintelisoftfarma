@@ -11,12 +11,8 @@
     <modules>
         <module>farma-entitys</module>
         <module>farma-dao</module>
-        <module>farma-daoimpl</module>
-        <module>farma-entitys</module>
         <module>farma-runner</module>
         <module>farma-service</module>
-        <module>farma-service</module>
-        <module>farmaapi</module>
         <module>farma-api</module>
     </modules>
 

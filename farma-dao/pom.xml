@@ -24,8 +24,8 @@
             <version>5.1.0.Final</version>
         </dependency>
         <dependency>
+            <artifactId>farma-api</artifactId>
             <groupId>com.intelisoft</groupId>
-            <artifactId>farma-daoimpl</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

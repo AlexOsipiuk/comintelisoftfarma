@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/comintelisoftfarma.iml" filepath="$PROJECT_DIR$/comintelisoftfarma.iml" />
       <module fileurl="file://$PROJECT_DIR$/farma-api/farma-api.iml" filepath="$PROJECT_DIR$/farma-api/farma-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/farma-dao/farma-dao.iml" filepath="$PROJECT_DIR$/farma-dao/farma-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/farma-daoimpl/farma-daoimpl.iml" filepath="$PROJECT_DIR$/farma-daoimpl/farma-daoimpl.iml" />
       <module fileurl="file://$PROJECT_DIR$/farma-entitys/farma-entitys.iml" filepath="$PROJECT_DIR$/farma-entitys/farma-entitys.iml" />
       <module fileurl="file://$PROJECT_DIR$/farma-runner/farma-runner.iml" filepath="$PROJECT_DIR$/farma-runner/farma-runner.iml" />
       <module fileurl="file://$PROJECT_DIR$/farma-service/farma-service.iml" filepath="$PROJECT_DIR$/farma-service/farma-service.iml" />

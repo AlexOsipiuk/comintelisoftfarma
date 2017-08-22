@@ -1,6 +1,7 @@
 package com.intelisoft.dao.impl;
 
-import com.intelisoft.farma.dao.entitydao.generikdao.generikdao.IGenericDao;
+
+import com.intelisoft.farma.api.dao.IGenericDao;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;

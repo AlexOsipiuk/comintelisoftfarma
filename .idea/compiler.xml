@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="farma-api" />
         <module name="farma-dao" />
-        <module name="farma-daoimpl" />
         <module name="farma-entitys" />
         <module name="farma-runner" />
         <module name="farma-service" />
